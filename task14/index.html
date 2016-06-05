@@ -15,12 +15,12 @@
 <script type="text/javascript">
 
 var aqiData = [
-  ["北京", 90],
+  ["北京", 30],
   ["上海", 50],
   ["福州", 10],
   ["广州", 50],
-  ["成都", 90],
-  ["西安", 100]
+  ["成都", 30],
+  ["西安", 30]
 ];
 
 (function () {
@@ -40,7 +40,7 @@ var aqiData = [
     return b[1]-a[1];
   });
 
-  if(goodCity){
+  if(goodCity.length){
     goodCity.forEach(function(item, index, array){
       var oLi = document.createElement('li');      
       oLi.innerHTML = '第'+(index+1)+'名：'+item[0]+'，'+item[1];
