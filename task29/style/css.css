@@ -1,0 +1,20 @@
+
+
+table {margin:100px auto;}
+
+td:first-child{font-size:24px;font-weight:bold; color:#000; padding:0 50px; }
+
+td:nth-child(3){padding:0 24px;}
+
+#text {color:black; width:536px;height:64px; border-width: 2px; border-style: solid; font-size:24px; border-radius:10px; }
+
+button {border-radius:10px; font-size:24px; font-weight:bold; color:#fff;width:108px; height:64px; background:#2f79b8; border:2px solid #286ca9; border-radius:10px;}
+
+
+#hint {font-size:18px;}
+
+.normal{color:#ccc;border-color: #ccc; }
+
+.false{color:#d01; border-color: #d01; }
+
+.true{color:#5ebb46;border-color: #5ebb46;}
